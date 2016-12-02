@@ -24,6 +24,17 @@ app.get('/hi', function (req, res) {
   res.send('Hi There!'); // sent a plain text response
 });
 
+// EXAMPLE ENDPOINT - Query Parameters:
+// http://localhost:3000/user?username=nick&password=awesomestuff&apikey=123456789
+app.get('/user', function (req, res) {
+	var genericMessage = {
+		username: req.query['username'],
+		password: req.query['password'],
+		apikey: req.query['apikey'],
+	};
+	res.json(genericMessage);
+});
+
 app.listen(port, function () {
 	console.log('App server is running on http://localhost:' + port);
 });
