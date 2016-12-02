@@ -1,5 +1,8 @@
 # node-form-example
 
+![node-form-example-app](https://cloud.githubusercontent.com/assets/12876929/20828838/ee063ac4-b83e-11e6-9ae5-535e855f75c0.gif)
+
+
 ### Steps
 - Clone or download repo
 - `cd node-form-example`
