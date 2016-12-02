@@ -9,7 +9,8 @@
 ### Example Endpoints
 - `http://localhost:3000/` - Default endpoint
 - `http://localhost:3000/hi` - Plain text response example
-- `http://localhost:3000/user?username=nick&password=awesomestuff&apikey=123456789` - Query parameter parsting example
+- `http://localhost:3000/token` - Randomly generated token
+- `http://localhost:3000/user?username=nick&password=awesomestuff&token=123456789` - Query parameter parsting example
 
 If your form looks like this:
 ```html
